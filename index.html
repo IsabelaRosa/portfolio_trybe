@@ -3,21 +3,57 @@
     <head>
         <meta charset="utf-8">
         <title>Isabela Rosa</title>
+        <style>
+            
+            h1, h2, h3 {
+                color: rgb(79, 79, 79);
+            }
+            h1 {
+                text-align: center;
+                font-size: 70px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            h2 {
+                font-size: 50px;
+                font-family: 'Pacifico', cursive;
+            }
+            h3 {
+                font-size: 40px;
+            }
+            body{
+                background-color: rgb(144, 226, 203);
+            }
+            {
+                font-size: 28px;
+            }
+            p, nav, article {
+                font-size: 35px;
+            }
+            #lista1 {
+                font-size: 45px;
+                
+            }
+            .outras-listas {
+                font-size: 35px;
+            }
+            #link1 {
+            }
+        </style>
     </head>
 
     <body>
         <h1>Bem vindo(a) ao meu Portfólio!</h1>
 
-        <img id="link1" src="foto_portfolio.jpeg" alt="Foto de apresentação." width="300px">
+        <img id="link1" src="foto_portfolio.jpeg" alt="Foto de apresentação." width="350px">
 
-        <ul>
+        <ul id="lista1">
             <li><a href="#quem-sou-eu">Quem sou eu</a></li>
             <li><a href="#habilidades">Habilidades</a></li>
             <li><a href="#curiosidades">Curiosidades</a></li>
             <li><a href="#contato">Contato</a></li>
         </ul>
 
-        <h2 id="quem-sou-eu"><strong>Quem sou eu:</strong></h2>
+        <h2 #color-title id="quem-sou-eu"><strong>Quem sou eu:</strong></h2>
 
         <p>Olá, eu sou <em><strong>Isabela Rosa</strong></em>, tenho 23 anos, nasci em Itajubá (MG), e já morei em algumas outras cidades como <em>Cruzeiro</em> <br>
         (localizada no Vale do Paraíba, estado de São Paulo) e <em>Rio de Janeiro</em> (capital do estado do Rio de Janeiro).<br>
@@ -25,32 +61,32 @@
         No momento estou aprendendo desenvolvimento de software, com foco em desenvolvimento web através da <a target="_blank" href="https://www.betrybe.com/">Trybe.</a><br>
         Estou adorando, embora esta área tecnológica seja uma novidade em minha vida.</p>
 
-        <h3 id="habilidades"><strong>Habilidades:</strong></h3>
+        <h3 #color-title id="habilidades"><strong>Habilidades:</strong></h3>
 
-        <p><em>Como ainda estou iniciando na programação, minha lista de habilidades é modesta. Mas dentre elas estão</em>:
-            <ul>
+        <article><em>Como ainda estou iniciando na programação, minha lista de habilidades é modesta. Mas dentre elas estão</em>:
+            <ul class="outras-listas">
                 <li><strong>Linguagem C</strong>;</li>
                 <li>Shell Script;</li>
                 <li>HTML;</li>
                 <li>CSS.</li>
             </ul>
-        </p>
+        </article>
 
         <h3 id="curiosidades"><strong>Curiosidades:</strong></h3>
 
-        <p>Aqui estão alguns links que estou gostando de acompanhar para aprender sobre assuntos relacionados à programação,<br>
+        <nav>Aqui estão alguns links que estou gostando de acompanhar para aprender sobre assuntos relacionados à programação,<br>
         incluindo algumas playlists de cursos rápidos e atuais para a área. Vale a pena conferir!
-        <ul>
+        <ul class="outras-listas">
             <li><a target="_blank" href="https://blog.rocketseat.com.br/">Blog Rockeatset</a></li>
             <li><a target="_blank" href="https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg">Canal Rocketseat no Youtube</a></li>
             <li><a target="_blank" href="https://www.youtube.com/channel/UCwteNKfckLSV-cHZAX9G6ig/playlists">Canal Guilherme Fernando - Developer</a></li><br>
         </ul>
-
+        </nav>
 
         <h3 id="contato"><strong>Contato:</strong></h3>
-        <p>Telefone: (35)98455-8136<br>
+        <article>Telefone: (35) 98455-8136<br>
          E-mail: isabelarosa954@gmail.com
-        </p>
+        </article>
         <a href="#link1">Link para minha foto</a>
     
     </body>
